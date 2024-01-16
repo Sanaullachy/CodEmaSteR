@@ -10,6 +10,12 @@ body {
 	overflow-x: hidden;
 }
 
+@media screen and (max-width:1142px) {
+	body {
+	overflow-x: hidden;
+}
+}
+
 /*laptop menu*/
 .menu-container {
 	width: 100%;
