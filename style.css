@@ -12,7 +12,7 @@ body {
 
 @media screen and (max-width:1142px) {
 	body {
-	overflow-x: hidden!important;
+	overflow: hidden!important;
 }
 }
 
