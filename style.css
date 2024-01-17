@@ -98,7 +98,7 @@ body {
 
 /*mobile menu*/
 .responsive-menu-container {
-	width: 100%;
+	width: 90%;
 	height: 80px;
 	position: fixed;
 	background: #C9F1AB;
