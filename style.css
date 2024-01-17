@@ -166,6 +166,7 @@ body {
 }
 	.responsive-menu-container {
 	display: inline-block;
+	width: 90%;
 	position: fixed;
 }
 
