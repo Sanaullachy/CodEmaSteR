@@ -16,6 +16,45 @@ body {
 }
 }
 
+.cursor {
+	position: fixed;
+	width: 25px;
+	height: 25px;
+	border: 1px solid #0c9ccc;
+	border-radius: 50px;
+	left: 0;
+	top: 0;
+	z-index: 200000;
+	pointer-events: none;
+	transform: translate(-50%, -50%);
+	transition: .1s;
+} 
+
+.cursor2 {
+	position: fixed;
+	width: 8px;
+	height: 8px;
+	background-color: #0c9ccc;
+	border-radius: 50px;
+	left: 0;
+	top: 0;
+	z-index: 200000;
+	pointer-events: none;
+	transform: translate(-50%, -50%);
+	transition: .15s;
+} 
+
+.cursor-container:hover ~ .cursor {
+	transform: translate(-50%, -50%) scale(1.5);
+	background-color: #c6c6c6;
+	opacity: .5;
+}
+
+.cursor-container:hover ~ .cursor2 {
+	opacity: 0;
+}
+
+
 /*laptop menu*/
 .menu-container {
 	width: 100%;
