@@ -12,7 +12,7 @@ body {
 
 @media screen and (max-width:1142px) {
 	body {
-	overflow: hidden!important;
+	overflow: hidden;
 }
 }
 
@@ -59,8 +59,7 @@ body {
 .menu-container {
 	width: 100%;
 	height: 80px;
-	background: url('img/banner3.jpg);
-	background-size: cover;
+	background: #fff;
 	position: fixed;
 	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 	z-index: 99;
@@ -139,7 +138,7 @@ body {
 	width: 100%;
 	height: 80px;
 	position: fixed;
-	background: url('img/banner2.jpg');
+	background: #fff;
 	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 	display: none;
 	z-index: 22;
